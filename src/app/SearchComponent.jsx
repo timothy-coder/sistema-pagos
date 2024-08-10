@@ -34,7 +34,8 @@ export default function SearchComponent() {
   };
 
   return (
-    <div className='box-form'>
+    <div style={{ color: 'black'}} className='box-form'>
+      <h1>ADMISION</h1>
       <h2>Buscar Datos por DNI:</h2>
       <input 
         type="text" 
@@ -42,7 +43,7 @@ export default function SearchComponent() {
         onChange={(e) => setId(e.target.value)} 
         placeholder="Ingrese DNI" 
         className='input-form'
-        style={{ color: 'black'}}
+        
       />
       <button 
         onClick={handleSearch} 
@@ -67,7 +68,7 @@ export default function SearchComponent() {
       {result && (
         <div style={{ width: '100%', marginTop: '20px',color:'black', backgroundColor: '#f0f0f0', padding: '20px', borderRadius: '8px' }}>
           <h2>Resultado:</h2>
-          <p><strong>Documento:</strong> {result.DOCUMENTO}</p>
+          <p><strong>DNI:</strong> {result.DOCUMENTO}</p>
           <p><strong>Nombre y apellido:</strong> {result['RAZÓN SOCIAL']}</p>
           <p><strong>Numero de recibo:</strong> {result.SERIE} - {result.NÚMERO}</p>
           <p><strong>Fecha del recibo:</strong> {result['FEC. EMISIÓN']}</p>
