@@ -35,7 +35,8 @@ export default function SearchComponent() {
 
   return (
     <div style={{ color: 'black'}} className='box-form'>
-      <h1>ADMISION</h1>
+      <h1>ADMISIÓN</h1>
+      <h1>VA LOGUITO</h1>
       <h2>Buscar Datos por DNI:</h2>
       <input 
         type="text" 
