@@ -70,7 +70,7 @@ export default function SearchComponent() {
           <h2>Resultado:</h2>
           <p><strong>DNI:</strong> {result.DOCUMENTO}</p>
           <p><strong>Nombre y apellido:</strong> {result['RAZÓN SOCIAL']}</p>
-          <p><strong>Numero de recibo:</strong> {result.SERIE} - {result.NÚMERO}</p>
+          <p><strong>Número de recibo:</strong> {result.SERIE} - {result.NÚMERO}</p>
           <p><strong>Fecha del recibo:</strong> {result['FEC. EMISIÓN']}</p>
           <p><strong>Monto:</strong> {result.IMPORTE}</p>
 
