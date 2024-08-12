@@ -36,6 +36,7 @@ body {
 .box-form {
   padding: 40px 24px;
   display: flex;
+  align-items: center;
   flex-direction: column;
   background-color: white;
   border-radius: 24px;
@@ -73,8 +74,9 @@ body {
 .banner h1 {
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 32px;
 }
+
 
 @media (min-width: 800px) {
   .caja-main {

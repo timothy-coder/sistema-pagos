@@ -35,8 +35,10 @@ export default function SearchComponent() {
 
   return (
     <div style={{ color: 'black'}} className='box-form'>
-      <h1>ADMISIÓN</h1>
-      <h1>VA LOGUITO</h1>
+      <h1 style={{fontWeight: "bold", fontSize: "32px"}}>ADMISIÓN</h1>
+      <br />
+      <img src="https://yachay.digital/wp-content/uploads/2021/03/uncp.png" alt="logo" style={{height: "100px", width: "100px"}}/>
+      <br />
       <h2>Buscar Datos por DNI:</h2>
       <input 
         type="text" 
